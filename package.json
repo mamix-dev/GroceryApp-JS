@@ -1,0 +1,25 @@
+{
+  "name": "groceryapp-js",
+  "version": "1.0.0",
+  "description": "Coding club JS app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamix-dev/GroceryApp-JS.git"
+  },
+  "author": "STEM Programming Club",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamix-dev/GroceryApp-JS/issues"
+  },
+  "homepage": "https://github.com/mamix-dev/GroceryApp-JS#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.5"
+  }
+}

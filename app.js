@@ -10,7 +10,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(methodOverride("_method"));
 
 app.get("/", (req, res) => {
-  res.send("Hello world");
+  res.render("index");
 });
 
 let port = process.env.PORT;
